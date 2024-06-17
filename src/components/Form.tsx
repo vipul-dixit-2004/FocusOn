@@ -4,7 +4,7 @@ export default function Form({ task, handleChange, createTask }: any) {
   return (
     <>
       <h1 className="text-black dark:text-white m-5 text-3xl sm:text-6xl ">
-        {task == "" ? "What you wanna Focus on?" : task}
+        {task == "" ? "What do you wanna Focus on?" : task}
       </h1>
       <form className="flex ring-4 rounded-md bg-white" onSubmit={createTask}>
         <input
